@@ -14,3 +14,5 @@ Route::post('payme',[PaymeController::class, 'index']);
 
 Route::get('cours',[CoursController::class, 'index']);
 Route::post('mavzu',[CoursController::class, 'mavzu']);
+
+Route::post('mavzus',[CoursController::class, 'mavzus']);
